@@ -69,7 +69,8 @@ def window_options():
                                             window_op.destroy()])
     submit_done.place(relx=0.4,rely=0.77)
     window_op.mainloop()
-
+def thongbao():
+    print("thongbao")
 def start():
     windowTK.title(string="Skip survey of IUH")
     center_window_main(300, 130, windowTK)
